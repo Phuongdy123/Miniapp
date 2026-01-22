@@ -1,19 +1,24 @@
-{
-  "redirects": [
     {
-      "source": "/",
-      "destination": "/views/index.html",
-      "permanent": true
-    },
-    {
-      "source": "/views",
-      "destination": "/views/index.html",
-      "permanent": true
-    },
-    {
-      "source": "/views/",
-      "destination": "/views/index.html",
-      "permanent": true
+    "redirects": [
+        {
+        "source": "/",
+        "destination": "/views/index.html",
+        "permanent": true
+        },
+        {
+        "source": "",
+        "destination": "/views/index.html",
+        "permanent": true
+        },
+        {
+        "source": "/views",
+        "destination": "/views/index.html",
+        "permanent": true
+        },
+        {
+        "source": "/views/",
+        "destination": "/views/index.html",
+        "permanent": true
+        }
+    ]
     }
-  ]
-}
